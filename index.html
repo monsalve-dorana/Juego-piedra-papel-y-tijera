@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>piedra papel y tijera</title>
+
+<!--MI CSS-->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+<h2 class="header_title">piedra papel y tijera</h2>
+    </header>
+
+    <div class="main_container">
+
+        <div class="vs_container">
+
+          <div class="player">
+
+              <img id="player1" src="img/persona.svg" alt="">
+                <p>player1</p>
+                <p id="ptos_player1"> 0 </p>
+
+          </div>
+       
+  <div class="vs">
+          <h3 id="result">vs</h3>  
+
+            </div>
+
+ <div class="player">
+         <img id="player2" src="img/cpu.svg" alt="">
+                <p>player2</p>
+                <p id="ptos_player2"> 0 </p>
+                 </div>
+
+                </div>
+
+    <div class="game_container">
+
+<!--BOTON PIEDRA-->
+
+    <div class="game_options">
+    <button id="piedra" class="options_piedra">
+        <img src="img/piedra.svg" alt="">
+    </button>
+
+<!--BOTON PAPEL-->
+
+     <button id="papel" class="options_papel">
+        <img src="img/papel.svg" alt="">
+    </button>
+
+<!--BOTON TIJERA-->
+
+     <button id="tijera" class="options_tijera">
+        <img src="img/tijera.svg" alt="">
+    </button>
+
+</div>
+
+
+<div class="details">
+    <p>PIEDRA GANARA CONTRA TIJERA Y PERDERA CONTRA PAPEL</p>
+     <p>PAPEL GANARA CONTRA PIEDRA Y PERDERA CONTRA TIJERA</p>
+      <p>TIJERA GANARA CONTRA PAPEL Y PERDERA CONTRA TIJERA</p>
+</div>
+
+ </div>      
+
+ <div class="start_game">
+<button id="start_game">
+    <img src="img/play.svg" alt="">
+</button>
+<button id="reset_game">
+    <img src="img/reset.svg" alt="">
+</button>
+ </div>
+ </div>
+
+
+
+</div>
+
+
+<!--MI JAVA SCRIPT-->
+
+ <script src="app.js"></script>
+</body>
+</html>
